@@ -17,10 +17,30 @@ body {
     text-align: center;
 }
 
-.photos img {
+.dedication {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.photos {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    user-select: none; /* Previene la selección de texto durante el arrastre */
+}
+
+.carousel-item img {
     width: 100%;
-    max-width: 250px;
-    margin: 10px;
     border-radius: 10px;
 }
 
