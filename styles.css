@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('images/fondo.jpg');
     color: #333;
     margin: 0;
     padding: 0;
@@ -10,11 +10,18 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.80);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
+}
+
+.photos img {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 header {
@@ -26,13 +33,6 @@ header {
 
 header h1, header h2 {
     margin: 0;
-}
-
-.photos img {
-    width: 100%;
-    max-width: 250px;
-    margin: 10px;
-    border-radius: 10px;
 }
 
 .details p {
