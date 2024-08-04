@@ -23,14 +23,14 @@ header {
 }
 
 .title {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2.5em;
     color: #333;
     margin: 0;
 }
 
 .subtitle {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     color: #333;
     margin: 10px 0 0;
