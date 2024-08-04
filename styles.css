@@ -1,20 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-image: url('images/fondo.jpg');
     color: #333;
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 
 .container {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.80);
+    background: rgba(255, 255, 255, 0.90);
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
     text-align: center;
+}
+
+header {
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0 0;
 }
 
 .dedication {
@@ -27,6 +47,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .carousel {
@@ -36,7 +57,7 @@ body {
 
 .carousel-item {
     min-width: 100%;
-    user-select: none; /* Previene la selección de texto durante el arrastre */
+    user-select: none;
 }
 
 .carousel-item img {
@@ -44,15 +65,16 @@ body {
     border-radius: 10px;
 }
 
-header {
-    background: #000;
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 20px;
-    border-radius: 10px 10px 0 0;
-}
-
-header h1, header h2 {
-    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
 }
 
 .details p {
